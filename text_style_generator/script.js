@@ -1,27 +1,27 @@
 $(function(){
-    let rangeFront = $('.front');
-    let offsetOX = $('.ox');
-    let offsetOY = $('.oy');
-    let rangeBlur = $('.blur');
-    let rangeTrans = $('.transparency');
-    let changeColorShdw = $('.block_color_shdw > input[type="color"]');
-    let changeColorText = $('.block_color_text > input[type="color"]');
+    let rangeFront          = $('.front');
+    let offsetOX            = $('.ox');
+    let offsetOY            = $('.oy');
+    let rangeBlur           = $('.blur');
+    let rangeTrans          = $('.transparency');
+    let changeColorShdw     = $('.block_color_shdw > input[type="color"]');
+    let changeColorText     = $('.block_color_text > input[type="color"]');
 
-    let positionText = $('#position');
+    let positionText        = $('#position');
 
-    let buttonCopy = $('input[type="button"]');
+    let buttonCopy          = $('input[type="button"]');
 
-    let value_color_shdw = changeColorShdw.val();
-    let value_color_text = changeColorText.val();
+    let value_color_shdw    = changeColorShdw.val();
+    let value_color_text    = changeColorText.val();
 
-    let value_front = $('.h_front > b').text(rangeFront.val());
-    let value_ox = $('.h_ox > b').text(offsetOX.val());    
-    let value_oy = $('.h_oy > b').text(offsetOY.val());
-    let value_blur = $('.h_blur > b').text(rangeBlur.val());
-    let value_trans = $('.h_trans > b').text(rangeTrans.val());
+    let value_front         = $('.h_front > b').text(rangeFront.val());
+    let value_ox            = $('.h_ox > b').text(offsetOX.val());    
+    let value_oy            = $('.h_oy > b').text(offsetOY.val());
+    let value_blur          = $('.h_blur > b').text(rangeBlur.val());
+    let value_trans         = $('.h_trans > b').text(rangeTrans.val());
 
-    let resultCssCode = $('.code_css');
-    let shadowResult = $('.shadow_result');
+    let resultCssCode       = $('.code_css');
+    let shadowResult        = $('.shadow_result');
 
     changeResult();    
 
