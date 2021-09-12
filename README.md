@@ -1,3 +1,3 @@
 # text-style-generator
 
-[] add drag & drop
+[ ] add drag & drop
