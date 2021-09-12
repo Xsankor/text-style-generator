@@ -1,3 +1,4 @@
 # text-style-generator
 
-[ ] add drag & drop
+#TODO
+- [ ] добавить drag % drop реализацию
